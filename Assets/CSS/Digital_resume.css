@@ -10,6 +10,7 @@ html,
 body {
     max-width: 100vw;
     overflow-x: hidden;
+    /* overflow-x: unset; */
     height: auto;
 }
 
@@ -59,8 +60,6 @@ body {
 }
 
 li {
-    display: flex;
-    color: white;
     font-weight: bold;
 }
 
