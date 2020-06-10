@@ -90,10 +90,15 @@ a {
 
 .card-title {
     font-size: 38px;
-    color: #B3A136;
+    color: #695958;
     font-weight: bold;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
+}
+
+.card-body{
+    background-color: #fffff2;
+    border: 1px solid #695958;
 }
 
 .section {
@@ -119,7 +124,7 @@ a {
 .training {
     font-size: 30px;
     font-weight: bold;
-    color: #184D1B;
+    color: #006d77;
     padding-top: 1em;
 }
 
@@ -140,7 +145,7 @@ a {
 
 .skill_label {
     padding-left: 10em;
-    color: #184D1B;
+    color: #006d77;
 }
 
 
@@ -153,7 +158,7 @@ a {
 }
 
 .language_label {
-    color: #184D1B;
+    color: #006d77;
     padding-left: 1em;
 }
 
