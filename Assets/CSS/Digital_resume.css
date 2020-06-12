@@ -9,7 +9,6 @@
 html,
 body {
     max-width: 100vw;
-    overflow-x: unset;
     height: auto;
 }
 
@@ -49,7 +48,7 @@ body {
     border: 1px solid #e29578;
     background-color: #e29578;
     width: auto;
-    height: 94px;
+    z-index: 100;
 }
 
 .navbar-nav {
@@ -63,12 +62,11 @@ li {
     font-weight: bold;
 }
 
-/* .sticky {
+.sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    padding-top: 60px;
-} */
+}
 
 
 
