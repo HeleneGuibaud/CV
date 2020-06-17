@@ -20,24 +20,24 @@ body {
 }
 
 /*Superposition d'un texte sur une image*/
-.container {
+.headerPicture {
   display: inline-block;
   position: relative;
   /* height: 376px; */
 }
 
-.container .text {
+.headerPicture .text {
   z-index: 1;
   position: absolute;
   text-align: center;
   margin: 0;
   left: 0;
   right: 0;
-  top: 50px;
+  top: 3em;
   /* height: 280px; */
 }
 
-.container img {
+.headerPicture img {
   width: 100%;
   height: auto;
 }
