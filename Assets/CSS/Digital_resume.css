@@ -60,6 +60,7 @@ body {
 
 .nav-item {
   font-weight: bold;
+  font-size: 25px;
 }
 
 .sticky {
@@ -92,14 +93,14 @@ body {
 /*Mise en forme rubrique "Présentation"*/
 .presentation {
   margin: 1em;
-  font-size: 30px;
+  font-size: 26px;
   font-family: 'Dancing Script', cursive;
 }
 
 
 /*Mise en forme rubrique "Formation"*/
 .training {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
   color: #006d77;
   padding-top: 1em;
@@ -334,8 +335,8 @@ time {
 
 @media only screen and (min-width: 650px) {
   .hobbies_img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
   }
 }
 
@@ -372,11 +373,11 @@ time {
   }
 
   .fa-github {
-    font-size: 100px;
+    font-size: 90px;
   }
 
   .fa-linkedin {
-    font-size: 100px;
+    font-size: 90px;
   }
 }
 
