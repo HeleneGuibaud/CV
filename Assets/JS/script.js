@@ -60,7 +60,8 @@ function myFunction() {
   })();
 
 
-  // Fonction pour faire remonter la navbar une fois un click effectué.
+
+// Fonction pour faire réduire la navbar une fois le click effectué.
 
   $(function () {
     $('#navbarSupportedContent').on('click', '.nav-item', function () {
