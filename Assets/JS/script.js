@@ -58,3 +58,12 @@ function myFunction() {
     window.addEventListener("scroll", callbackFunc);
   
   })();
+
+
+  // Fonction pour faire remonter la navbar une fois un click effectué.
+
+  $(function () {
+    $('#navbarSupportedContent').on('click', '.nav-item', function () {
+        $('#navbarSupportedContent').toggleClass('show');
+    })
+})
