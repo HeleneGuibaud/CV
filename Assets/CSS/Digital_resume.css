@@ -33,7 +33,7 @@ body {
   margin: 0;
   left: 0;
   right: 0;
-  top: 3em;
+  top: 3.3em;
   /* height: 280px; */
 }
 
@@ -42,24 +42,48 @@ body {
   height: auto;
 }
 
+@media screen and (max-width: 1400px) {
+  .headerPicture .text {
+    top: 2em;
+  }
+  .name {
+    font-size: 28px;
+  }
+  .job {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .headerPicture .text {
-    top: 0.8em;
+    top: 1.5em;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .job {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .headerPicture .text {
+    top: 0.6em;
   }
   .name {
     font-size: 20px;
   }
   .job {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
   .headerPicture .text {
     top: 0.6em;
   }
   .name {
-    font-size: 16px;
+    font-size: 18px;
   }
   .job {
     display: none;
