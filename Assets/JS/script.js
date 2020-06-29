@@ -23,6 +23,7 @@ function myFunction() {
 }
 
 
+
 // Création de la timeline de la rubrique expérience.
 
 (function () {
@@ -61,7 +62,7 @@ function myFunction() {
 
 
 
-// Fonction pour faire réduire la navbar une fois le click effectué.
+// Fonction pour faire réduire la navbar une fois le click effectué (à mettre à la fin du JS).
 
 $(function () {
   $('#navbarSupportedContent').on('click', '.nav-item', function () {
