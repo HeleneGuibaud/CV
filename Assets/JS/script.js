@@ -1,5 +1,13 @@
 // Création de la barre de navigation sticky-top.
 
+// Ajout de la class sticky-top au links de la navbar.
+$(".nav-link").click(function() {
+    if (!$(".navbar").hasClass('sticky')){
+        $(".navbar").addClass('sticky');
+    }
+});
+
+
 // Exécution de la fonction au scroll de la page.
 window.onscroll = function () {
     myFunction()
@@ -63,7 +71,6 @@ function myFunction() {
 
 
 // Fonction pour faire réduire la navbar une fois le click effectué (à mettre à la fin du JS).
-
 $(function () {
     $('#navbarSupportedContent').on('click', '.nav-item', function () {
         $('#navbarSupportedContent').toggleClass('show');
