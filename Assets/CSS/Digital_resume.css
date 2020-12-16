@@ -360,6 +360,14 @@ time {
     background-color: #a99998;
 }
 
+a {
+    color: #006d77;
+}
+
+a:hover{
+    color: #006d77;
+}
+
 
 /*Mise en forme rubrique "Languages".*/
 
